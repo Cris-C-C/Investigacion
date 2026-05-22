@@ -1,0 +1,6 @@
+Estrella  Planetas_en_Sistema  Distancia(pc) Tipo_Espectral  Temp_K  Radio_Sol  Masa_Sol                                                                                                                               Ref_Estrella
+  KOI-55                    2        1231.02              B 27730.0      0.203     0.496 <a refstr=CHARPINET_ET_AL__2011 href=https://ui.adsabs.harvard.edu/abs/2011Natur.480..496C/abstract target=ref> Charpinet et al. 2011 </a>
+
+Estrella  Planeta  Periodo(Dias)  Semi_Eje(UA)  Masa(Jup)  Mp_sin_i(Jup)  Masa(Tierra)  Mp_sin_i(Tierra)  Radio(Tierra)                        Metodo                                                                                                                                 Referencia
+  KOI-55 KOI-55 c       0.342887        0.0076     0.0021            NaN         0.655               NaN          0.867 Orbital Brightness Modulation <a refstr=CHARPINET_ET_AL__2011 href=https://ui.adsabs.harvard.edu/abs/2011Natur.480..496C/abstract target=ref> Charpinet et al. 2011 </a>
+  KOI-55 KOI-55 b       0.240104        0.0060     0.0014            NaN         0.440               NaN          0.759 Orbital Brightness Modulation <a refstr=CHARPINET_ET_AL__2011 href=https://ui.adsabs.harvard.edu/abs/2011Natur.480..496C/abstract target=ref> Charpinet et al. 2011 </a>
