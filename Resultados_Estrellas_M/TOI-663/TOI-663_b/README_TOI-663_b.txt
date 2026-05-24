@@ -1,0 +1,9 @@
+SISTEMA: TOI-663
+PLANETA: TOI-663 b
+========================================
+Masa de la Estrella (Masas Solares): 0.514
+Temperatura Estrella (K): 3681.0
+Masa del Planeta (Masas Terrestres): 4.4500
+Semi-eje mayor de la órbita (UA): 0.0295
+Periodo Orbital (días): 2.598902
+Referencia: <a refstr=COINTEPAS_ET_AL__2024 href=https://ui.adsabs.harvard.edu/abs/2024A&A...685A..19C/abstract target=ref>Cointepas et al. 2024</a>

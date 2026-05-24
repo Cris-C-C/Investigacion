@@ -1,0 +1,9 @@
+SISTEMA: TOI-2202
+PLANETA: TOI-2202 c
+========================================
+Masa de la Estrella (Masas Solares): 0.841
+Temperatura Estrella (K): 5169.0
+Masa del Planeta (Masas Terrestres): 117.2787
+Semi-eje mayor de la órbita (UA): 0.15544
+Periodo Orbital (días): 24.6744
+Referencia: <a refstr=RICE_ET_AL__2023 href=https://ui.adsabs.harvard.edu/abs/2023AJ....166..266R/abstract target=ref>Rice et al. 2023</a>
