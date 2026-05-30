@@ -1,9 +1,0 @@
-SISTEMA: HIP 14810
-PLANETA: HIP 14810 b
-========================================
-Masa de la Estrella (Masas Solares): 1.01
-Temperatura Estrella (K): 5544.0
-Masa del Planeta (Masas Terrestres): 1239.5370
-Semi-eje mayor de la órbita (UA): 0.0696
-Periodo Orbital (días): 6.673892
-Referencia: <a refstr=MENT_ET_AL__2018 href=https://ui.adsabs.harvard.edu/abs/2018AJ....156..213M/abstract target=ref>Ment et al. 2018</a>

@@ -1,0 +1,12 @@
+=== Resumen de resultados ===
+Total estables: 161
+Total inestables: 9823
+Total colisión m1: 0
+Total colisión m2: 16
+
+=== Areas en km2 ===
+Area total de la grilla: 4.02e+09 km2
+Area estable: 6.48e+11 km2
+Area inestable: 3.95e+13 km2
+Area de colisión con m1: 0.00e+00 km2
+Area de colisión con m2: 6.44e+10 km2
