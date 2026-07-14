@@ -10,3 +10,9 @@ Area estable: 2.19e+15 km2
 Area inestable: 2.04e+16 km2
 Area de colisión con m1: 0.00e+00 km2
 Area de colisión con m2: 2.26e+12 km2
+
+=== Porcentajes ===
+Porcentaje de estabilidad: 9.77%
+Porcentaje de inestabilidad: 90.23%
+Porcentaje de colisión con m1: 0.00%
+Porcentaje de colisión con m2: 0.00%
