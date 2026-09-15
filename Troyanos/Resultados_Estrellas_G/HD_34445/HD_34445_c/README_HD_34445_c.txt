@@ -1,0 +1,9 @@
+SISTEMA: HD 34445
+PLANETA: HD 34445 c
+========================================
+Masa de la Estrella (Masas Solares): 1.07
+Temperatura Estrella (K): 5836.0
+Masa del Planeta (Masas Terrestres): 53.5000
+Semi-eje mayor de la órbita (UA): 0.7181
+Periodo Orbital (días): 214.67
+Referencia: <a refstr=VOGT_ET_AL__2017 href=https://ui.adsabs.harvard.edu/abs/2017AJ....154..181V/abstract target=ref>Vogt et al. 2017</a>
