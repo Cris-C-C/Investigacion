@@ -1,0 +1,4 @@
+def extraer_datos_personalizados():
+def _obtener_curva_convergencia(x, y, weights):
+def plot_convergencia_bw(df: pd.DataFrame):
+def graficar_curva(ax, x_data, y_data, w_data, titulo, color):
