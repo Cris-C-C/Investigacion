@@ -303,7 +303,7 @@ def plot_islands_kde2d_combinado(df: pd.DataFrame, base_dir: str, tipos=("F", "G
     print("="*95)
     for res in resumenes:
         nombre_estrella = res["titulo"].replace("Type", "Estrella Tipo")
-        print(f"{nombre_estrella} -> Distancia Óptima (Máx. Probabilidad): {res['opt_au']:6.2f} ± {res['opt_err']:.2f} AU | Límite Máximo del Contorno: {res['max_au']:6.2f} ± {res['max_err']:.2f} AU")
+        print(f"{nombre_estrella} -> Distancia Óptima Log (Máx. Probabilidad): {res['opt_au']:6.2f} ± {res['opt_err']:.2f} | Límite Máximo Log del Contorno: {res['max_au']:6.2f} ± {res['max_err']:.2f}")
     print("="*95 + "\n")
     handles_global = []
     labels_global = []

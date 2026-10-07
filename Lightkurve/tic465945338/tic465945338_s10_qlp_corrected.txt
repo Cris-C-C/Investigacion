@@ -1,0 +1,1 @@
+time_btjd	flux_raw_norm	flux_corr	flux_corr_err	quality

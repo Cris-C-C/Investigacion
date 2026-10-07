@@ -1,0 +1,17 @@
+# %ECSV 1.0
+# ---
+# datatype:
+# - {name: sector, datatype: int64}
+# - {name: N, datatype: int64}
+# - {name: P_LS_d, datatype: float64}
+# - {name: LS_power, datatype: float64}
+# - {name: FAP_LS_baluev, datatype: float64}
+# - {name: FAP_LS_bootstrap, datatype: float64}
+# - {name: P_PDM_d, datatype: float64}
+# - {name: PDM_theta_min, datatype: float64}
+# - {name: FAP_PDM_perm, datatype: float64}
+# schema: astropy-2.0
+sector N P_LS_d LS_power FAP_LS_baluev FAP_LS_bootstrap P_PDM_d PDM_theta_min FAP_PDM_perm
+7 1064 8.118016593189774 0.19387027673407398 1.3055886924099185e-46 0.0 0.10403267740097959 0.7090317416833561 0.009900990099009901
+34 2804 0.798599892601818 0.20148397406292087 1.2867481014810083e-133 0.0 0.7958173145788152 0.805905971680213 0.009900990099009901
+88 11215 0.3110755775213628 0.10233434791257222 2.0333714159938855e-259 0.0 0.6214521088011046 0.8920946328745578 0.009900990099009901

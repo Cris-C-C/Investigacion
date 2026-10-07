@@ -1,0 +1,8 @@
+These are generic bundles created by the script in the ipynb file.
+
+To test, run the UI and load each bundle. Morphology and data should
+change according to the loaded bundle.
+
+Vanilla bundles do not have any UI parameters; *_ui bundles have the
+morphology@ui parameter added. The UI knows how to parse morphology@ui
+when available, otherwise it infers morphology from parameters.
