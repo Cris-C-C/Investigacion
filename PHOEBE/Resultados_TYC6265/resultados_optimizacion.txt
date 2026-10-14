@@ -1,0 +1,13 @@
+Resultados de Optimización (Fase 1)
+-----------------------------------
+Periodo            : 3.678702 d
+t0_supconj         : 56456.12734
+Inclinación        : 78.15 deg
+q (fijo)           : 0.500
+Teff1 / Teff2      : 25698 K / 23595 K   (razón = 0.9182)
+(R1+R2)/a          : 0.3111
+R2/R1              : 0.6001
+R1/a , R2/a        : 0.1944 , 0.1167
+Llenado del lóbulo : R1/RL1 = 0.440 , R2/RL2 = 0.364   (1.0 = contacto)
+
+Nota: solo con fotometría, 'sma' y los radios absolutos son degenerados; usa las fracciones.

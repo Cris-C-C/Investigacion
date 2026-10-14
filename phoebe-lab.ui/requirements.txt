@@ -1,9 +1,0 @@
-fastapi
-uvicorn[standard]
-gunicorn
-requests
-psutil
-phoebe
-pyzmq
-nicegui
-plotly

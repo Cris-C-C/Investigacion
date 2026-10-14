@@ -50,6 +50,8 @@ DISTORTION = "sphere"                # 'sphere' (rápido) o 'roche'. Con 'sphere
 
 # --- fase 1 ---
 PHASES_MESH = [0.0, 0.25, 0.5, 0.75]  # fases en las que se dibuja la morfología
+MESH_COLOR  = "royalblue"            # mismo color para las dos estrellas
+MESH_EDGE   = "black"
 
 # Parámetros libres y sus priors
 PRIORS = {
@@ -189,6 +191,39 @@ def eclipse_depths(phase, flux):
     return 1 - prim / quad, 1 - sec / quad
 
 
+def dibujar_mesh(b, tag="optimo"):
+    """Dibuja la morfología con AMBAS estrellas del mismo color (MESH_COLOR).
+    Trabaja sobre una copia, así que no toca el bundle de emcee."""
+    P, t0 = b.get_value("period@binary", context="component"), b.get_value("t0_supconj@binary", context="component")
+    bm = b.copy()
+    for ds in ["lc01", "lc02"]:
+        try:
+            bm.disable_dataset(ds)
+        except Exception:
+            pass
+
+    times_mesh = [t0 + ph * P for ph in PHASES_MESH]
+    try:
+        bm.add_dataset("mesh", compute_times=times_mesh, dataset="mesh01", columns=["teffs", "loggs"])
+    except Exception:
+        bm.add_dataset("mesh", times=times_mesh, dataset="mesh01", columns=["teffs", "loggs"])
+    bm.run_compute(compute="final_compute", model="mesh_model", overwrite=True)
+
+    # fc/ec se pasan como color fijo (no 'teffs'), así ambas componentes salen iguales
+    estilo = dict(fc=MESH_COLOR, ec=MESH_EDGE, show=False)
+    for ph, t in zip(PHASES_MESH, times_mesh):
+        bm.plot(model="mesh_model", dataset="mesh01", time=t, **estilo,
+                save=os.path.join(OUT_DIR, f"mesh_cielo_{tag}_fase{ph}.png"))
+
+    for ph, t in zip(PHASES_MESH, times_mesh):
+        try:
+            bm.plot(model="mesh_model", dataset="mesh01", time=t, x="xs", y="ys", **estilo,
+                    save=os.path.join(OUT_DIR, f"mesh_orbital_{tag}_fase{ph}.png"))
+        except Exception as e:
+            print(f"  vista orbital no disponible ({e})")
+            break
+
+
 def fase1_verificar(b):
     if "bench" in b.models:
         b.remove_model("bench")
@@ -256,33 +291,7 @@ Nota: solo con fotometría, 'sma' y los radios absolutos son degenerados; usa la
         print(f"{ds}: profundidad fase 0 / 0.5 -> datos {d_obs[0]:.3f} / {d_obs[1]:.3f} "
               f"| modelo {d_mod[0]:.3f} / {d_mod[1]:.3f}")
 
-    # Morfología (mesh) en una COPIA, para no tocar el bundle de emcee
-    bm = b.copy()
-    for ds in ["lc01", "lc02"]:
-        try:
-            bm.disable_dataset(ds)
-        except Exception:
-            pass
-
-    times_mesh = [t0 + ph * P for ph in PHASES_MESH]
-    try:
-        bm.add_dataset("mesh", compute_times=times_mesh, dataset="mesh01", columns=["teffs", "loggs"])
-    except Exception:
-        bm.add_dataset("mesh", times=times_mesh, dataset="mesh01", columns=["teffs", "loggs"])
-    bm.run_compute(compute="final_compute", model="mesh_model", overwrite=True)
-
-    for ph, t in zip(PHASES_MESH, times_mesh):
-        bm.plot(model="mesh_model", dataset="mesh01", time=t, fc="blue", ec="black", show=False,
-                save=os.path.join(OUT_DIR, f"mesh_cielo_fase{ph}.png"))
-
-    for ph, t in zip(PHASES_MESH, times_mesh):
-        try:
-            bm.plot(model="mesh_model", dataset="mesh01", time=t, x="xs", y="ys",
-                    fc="blue", ec="black", show=False,
-                    save=os.path.join(OUT_DIR, f"mesh_orbital_fase{ph}.png"))
-        except Exception as e:
-            print(f"  vista orbital no disponible ({e})")
-            break
+    dibujar_mesh(b, tag="optimo")
     return b
 
 
@@ -458,6 +467,7 @@ def fase2_emcee():
     b.plot(dataset=["lc01", "lc02"], x="phases", model=["final_best"],
            save=os.path.join(OUT_DIR, "ajuste_final.png"), show=False)
     b.save(BUNDLE_OUT)
+    dibujar_mesh(b, tag="posterior")         # morfología con los valores adoptados del posterior
     print(f"Listo. Los archivos se guardaron en: {OUT_DIR}")
 
 
