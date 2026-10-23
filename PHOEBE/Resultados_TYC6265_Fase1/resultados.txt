@@ -1,0 +1,35 @@
+===================================================================
+ESTIMACIÓN ÓPTIMA DE PARÁMETROS (TYC 6265-2079-1 - SEMI-SEPARADO)
+===================================================================
+Parámetros de entrada fijos:
+  Periodo orbital (P)        = 3.678800 d
+  Teff primaria (T1)         = 25700 K
+
+Parámetros óptimos estimados de la curva de luz (chi2/dof = 7.388):
+  t0_supconj                 = 57254.374819 d
+  Inclinación (incl)         = 51.383 deg
+  Razón de masas (q = M2/M1) = 0.7281
+  Teff secundaria (T2)       = 8486 K   (T2/T1 = 0.3302)
+  Radio relativo R1/a        = 0.3327  (R1 = 8.91 Rsun)
+  Radio relativo R2/a        = 0.3500  (R2 = 9.37 Rsun, llena L2 al 99.5%)
+  Suma fraccional (R1+R2)/a  = 0.6828
+  Factor de llenado          = R1/RL1 = 0.815 , R2/RL2 = 0.994
+  Escala orbital de ref.     = a = 26.76 Rsun (M1=11.00 Msun, M2=8.01 Msun)
+
+Bloque listo para copiar como semillas iniciales:
+-------------------------------------------------------------------
+PARAMS_INICIALES = {
+    "period": 3.678800,
+    "t0_supconj": 57254.374819,
+    "incl": 51.383,
+    "q": 0.7281,
+    "teff1": 25700.0,
+    "teff2": 8485.7,
+    "teffratio": 0.3302,
+    "r1_over_a": 0.3327,
+    "r2_over_a": 0.3500,
+    "requivsumfrac": 0.6828,
+    "requiv1_rsun": 8.905,
+    "requiv2_rsun": 9.369,
+    "sma_rsun": 26.765,
+}
