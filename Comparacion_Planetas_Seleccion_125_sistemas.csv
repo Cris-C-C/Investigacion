@@ -1,0 +1,126 @@
+Host_Name,Planetas_Carpetas,Letras_Carpetas,Planetas_Archive,Letras_Archive,Faltan_en_Carpetas,Sobran_en_Carpetas,Coincide
+47 UMa,3,"b,c,d",3,"b,c,d",,,Sí
+55 Cnc,3,"c,e,f",7,"b,b b,b c,c,d,e,f","b,b b,b c,d",,No
+55 Cnc B,,,7,"b,c",,,Sin datos
+61 Vir,3,"b,c,d",3,"b,c,d",,,Sí
+Barnard's star,4,"b,c,d,e",4,,,"b,c,d,e",No
+DMPP-1,4,"b,c,d,e",4,"b,c,d,e",,,Sí
+DMPP-2,3,"b,c,d",3,"b,c,d",,,Sí
+EPIC 249893012,3,"b,c,d",3,"b,c,d",,,Sí
+GJ 1061,3,"b,c,d",3,"b,c,d",,,Sí
+GJ 163,3,"b,c,d",3,"b,c,d",,,Sí
+GJ 180,3,"b,c,d",3,"b,c,d",,,Sí
+GJ 3138,3,"b,c,d",3,"b,c,d",,,Sí
+GJ 3293,4,"b,c,d,e",4,"b,c,d,e",,,Sí
+GJ 357,3,"b,c,d",3,"b,c,d",,,Sí
+GJ 3998,3,"b,c,d",3,"b,c,d",,,Sí
+GJ 433,3,"b,c,d",3,"b,c,d",,,Sí
+GJ 581,3,"b,c,e",3,"b,c,e",,,Sí
+GJ 667 C,5,"b,c,e,f,g",5,"b,c,e,f,g",,,Sí
+GJ 876,3,"c,d,e",4,"b,c,d,e",b,,No
+GJ 887,4,"b,c,d,e",4,"b,c,d,e",,,Sí
+GJ 9827,3,"b,c,d",3,"b,c,d",,,Sí
+HD 10180,6,"c,d,e,f,g,h",6,"c,d,e,f,g,h",,,Sí
+HD 108236,4,"b,c,e,f",5,"b,c,e,f",,,Sí
+HD 110067,6,"b,c,d,e,f,g",6,"b,c,d,e,f,g",,,Sí
+HD 134606,5,"b,c,d,e,f",5,"b,c,d,e,f",,,Sí
+HD 136352,3,"b,c,d",3,"b,c,d",,,Sí
+HD 141399,4,"b,c,d,e",4,"b,c,d,e",,,Sí
+HD 160691,3,"b,d,e",4,"b,c,d,e",c,,No
+HD 164922,4,"b,c,d,e",4,"b,c,d,e",,,Sí
+HD 176986,3,"b,c,d",3,"b,c,d",,,Sí
+HD 181433,3,"b,c,d",3,"b,c,d",,,Sí
+HD 184010,3,"b,c,d",3,"b,c,d",,,Sí
+HD 190360,3,"b,c,d",3,"b,c,d",,,Sí
+HD 191939,5,"b,c,d,e,g",6,"b,c,d,e,f,g",f,,No
+HD 20781,4,"b,c,d,e",5,"b,c,d,e",,,Sí
+HD 20794,4,"b,d,e,f",4,"b,d,e,f",,,Sí
+HD 215152,4,"b,c,d,e",4,"b,c,d,e",,,Sí
+HD 219134,6,"b,c,d,f,g,h",6,"b,c,d,f,g,h",,,Sí
+HD 224018,3,"b,c,d",3,"b,c,d",,,Sí
+HD 22946,1,d,3,d,,,Sí
+HD 23472,5,"b,c,d,e,f",5,"b,c,d,e,f",,,Sí
+HD 28109,3,"b,c,d",3,"b,c,d",,,Sí
+HD 28471,3,"b,c,d",3,"b,c,d",,,Sí
+HD 31527,3,"b,c,d",3,"b,c,d",,,Sí
+HD 3167,4,"b,c,d,e",4,"b,c,d,e",,,Sí
+HD 33142,3,"b,c,d",3,"b,c,d",,,Sí
+HD 34445,6,"b,c,d,e,f,g",6,"b,c,d,e,f,g",,,Sí
+HD 37124,3,"b,c,d",3,"b,c,d",,,Sí
+HD 39194,3,"b,c,d",3,"b,c,d",,,Sí
+HD 40307,5,"b,c,d,f,g",5,"b,c,d,f,g",,,Sí
+HD 48948,3,"b,c,d",3,"b,c,d",,,Sí
+HD 63433,3,"b,c,d",3,"b,c,d",,,Sí
+HD 69830,3,"b,c,d",3,"b,c,d",,,Sí
+HD 7924,3,"b,c,d",3,"b,c,d",,,Sí
+HD 93385,3,"b,c,d",3,"b,c,d",,,Sí
+HD 96700,3,"b,c,d",3,"b,c,d",,,Sí
+HIP 41378,5,"b,c,d,e,f",6,"b,c,d,e,f,g",g,,No
+HIP 57274,3,"b,c,d",3,"b,c,d",,,Sí
+HR 858,3,"b,c,d",3,"b,c,d",,,Sí
+K2-133,4,"b,c,d,e",4,"b,c,d,e",,,Sí
+K2-136,3,"b,c,d",3,"b,c,d",,,Sí
+K2-138,6,"b,c,d,e,f,g",6,"b,c,d,e,f,g",,,Sí
+K2-155,3,"b,c,d",3,"b,c,d",,,Sí
+K2-157,3,"b,c,d",3,"b,c,d",,,Sí
+K2-19,3,"b,c,d",3,"b,c,d",,,Sí
+K2-233,3,"b,c,d",3,"b,c,d",,,Sí
+K2-239,3,"b,c,d",3,"b,c,d",,,Sí
+K2-285,4,"b,c,d,e",4,"b,c,d,e",,,Sí
+K2-3,3,"b,c,d",3,"b,c,d",,,Sí
+K2-32,4,"b,c,d,e",4,"b,c,d,e",,,Sí
+K2-37,3,"b,c,d",3,"b,c,d",,,Sí
+Kepler-114,3,"b,c,d",3,"b,c,d",,,Sí
+Kepler-138,4,"b,c,d,e",4,"b,c,d,e",,,Sí
+Kepler-167,4,"b,c,d,e",4,"b,c,d,e",,,Sí
+Kepler-186,5,"b,c,d,e,f",5,"b,c,d,e,f",,,Sí
+Kepler-235,4,"b,c,d,e",4,"b,c,d,e",,,Sí
+Kepler-247,3,"b,c,d",4,"b,c,d",,,Sí
+Kepler-249,3,"b,c,d",3,"b,c,d",,,Sí
+Kepler-25,3,"b,c,d",3,"b,c,d",,,Sí
+Kepler-26,4,"b,c,d,e",4,"b,c,d,e",,,Sí
+Kepler-267,3,"b,c,d",3,"b,c,d",,,Sí
+Kepler-296,5,"b,c,d,e,f",5,"b,c,d,e,f",,,Sí
+Kepler-32,3,"c,d,e",5,"b,c,d,e,f","b,f",,No
+Kepler-411,4,"b,c,d,e",4,"b,c,d,e",,,Sí
+Kepler-42,3,"b,c,d",3,"b,c,d",,,Sí
+Kepler-444,5,"b,c,d,e,f",5,"b,c,d,e,f",,,Sí
+Kepler-445,3,"b,c,d",3,"b,c,d",,,Sí
+Kepler-446,3,"b,c,d",3,"b,c,d",,,Sí
+Kepler-49,4,"b,c,d,e",4,"b,c,d,e",,,Sí
+Kepler-52,3,"b,c,d",3,"b,c,d",,,Sí
+Kepler-54,3,"b,c,d",3,"b,c,d",,,Sí
+Kepler-62,5,"b,c,d,e,f",5,"b,c,d,e,f",,,Sí
+Kepler-80,4,"b,c,d,e",6,"b,c,d,e,f,g","f,g",,No
+Kepler-81,3,"b,c,d",3,"b,c,d",,,Sí
+Kepler-82,4,"b,c,e,f",5,"b,c,d,e,f",d,,No
+Kepler-83,3,"b,c,d",3,"b,c,d",,,Sí
+L 98-59,5,"b,c,d,e,f",5,"b,c,d,e,f",,,Sí
+LHS 1678,3,"b,c,d",3,"b,c,d",,,Sí
+LHS 1903,4,"b,c,d,e",4,"b,c,d,e",,,Sí
+LP 791-18,3,"b,c,d",3,"b,c,d",,,Sí
+TOI-1117,3,"b,c,d",3,"b,c,d",,,Sí
+TOI-1246,4,"b,c,d,e",4,"b,c,d,e",,,Sí
+TOI-125,3,"b,c,d",3,"b,c,d",,,Sí
+TOI-1260,3,"b,c,d",3,"b,c,d",,,Sí
+TOI-1266,3,"b,c,d",3,"b,c,d",,,Sí
+TOI-1749,3,"b,c,d",3,"b,c,d",,,Sí
+TOI-178,6,"b,c,d,e,f,g",6,"b,c,d,e,f,g",,,Sí
+TOI-2076,4,"b,c,d,e",4,"b,c,d,e",,,Sí
+TOI-270,3,"b,c,d",3,"b,c,d",,,Sí
+TOI-4010,3,"b,c,d",4,"b,c,d,e",e,,No
+TOI-451,3,"b,c,d",3,"b,c,d",,,Sí
+TOI-561,4,"b,c,d,e",4,"b,c,d,e",,,Sí
+TOI-5789,4,"b,c,d,e",4,"b,c,d,e",,,Sí
+TOI-663,3,"b,c,d",3,"b,c,d",,,Sí
+TOI-700,4,"b,c,d,e",4,"b,c,d,e",,,Sí
+TOI-712,3,"b,c,d",3,"b,c,d",,,Sí
+TOI-7510,3,"b,c,d",3,"b,c,d",,,Sí
+TRAPPIST-1,7,"b,c,d,e,f,g,h",7,"b,c,d,e,f,g,h",,,Sí
+Teegarden's Star,3,"b,c,d",3,"b,c,d",,,Sí
+V1298 Tau,4,"b,c,d,e",4,"b,c,d,e",,,Sí
+WASP-47,4,"b,c,d,e",4,"b,c,d,e",,,Sí
+Wolf 1061,3,"b,c,d",3,"b,c,d",,,Sí
+YZ Cet,3,"b,c,d",3,"b,c,d",,,Sí
+rho CrB,3,"b,c,e",3,"b,c,e",,,Sí
+tau Cet,3,"f,g,h",3,"f,g,h",,,Sí

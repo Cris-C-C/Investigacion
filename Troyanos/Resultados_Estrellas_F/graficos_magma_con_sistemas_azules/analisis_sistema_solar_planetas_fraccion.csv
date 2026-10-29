@@ -1,0 +1,9 @@
+﻿Planeta,a_UA,Masa_Mtierra,Densidad_rel_G_%,Intervalo_barra_%,Percentil_en_planetas_G_%,N_regiones_G,En_region_nominal,En_region_3sigma
+Earth,1.0,1.0,2.150609096902339,0.0-10.1,0.0,1,False,True
+Jupiter,5.203,317.8,51.389738995350356,50.5-60.6,29.838709677419356,1,False,True
+Mars,1.524,0.107,0.004042571957332031,0.0-10.1,0.0,1,False,True
+Mercury,0.387,0.0553,0.005594610778638912,0.0-10.1,0.0,1,False,True
+Neptune,30.07,17.15,0.04333712471617452,0.0-10.1,0.0,1,False,False
+Saturn,9.537,95.16,16.252756160765095,10.1-20.2,4.838709677419355,1,False,False
+Uranus,19.19,14.54,0.15321994691565122,0.0-10.1,0.0,1,False,False
+Venus,0.723,0.815,2.3173252371691286,0.0-10.1,0.0,1,False,True
