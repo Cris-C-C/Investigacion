@@ -1,0 +1,43 @@
+REGIONES DE MAYOR PROBABILIDAD: DISTANCIA Y MASA
+==================================================
+Región = isla de densidad >= 90.9% de su pico (modo: picos).
+Errores: 1σ asimétricos (percentiles 16-84 del bootstrap), tal como están en la caché.
+Masas en M_Tierra; distancias en AU.
+
+
+FIGURA EN FILA (un panel por tipo espectral)
+--------------------------------------------
+Tipo M | todos los sistemas | pesos: fraccion | región 1 de 1
+   Distancia: de 0.046 (+0.005 / -0.021) a 0.106 (+0.059 / -0.009) AU
+   Masa:      de 2.38 (sin error) a 6.88 (sin error) M_Tierra (pico en ≈ 3.85 M_Tierra)
+
+
+FIGURAS POR TIPO ESPECTRAL Y MULTIPLICIDAD
+------------------------------------------
+Tipo M | 3 planetas | pesos: fraccion | región 1 de 1
+   Distancia: de 0.017 (+0.025 / -0.000) a 0.212 (+0.000 / -0.128) AU
+   Masa:      de 2.16 (sin error) a 6.88 (sin error) M_Tierra (pico en ≈ 3.85 M_Tierra)
+
+Tipo M | 4 planetas | pesos: fraccion | región 1 de 2
+   Distancia: de 0.026 (+0.000 / -0.005) a 0.036 (+0.000 / -0.000) AU
+   Masa:      de 2.16 (sin error) a 298.50 (sin error) M_Tierra (pico en ≈ 3.50 M_Tierra)
+
+Tipo M | 4 planetas | pesos: fraccion | región 2 de 2
+   Distancia: de 0.077 (+0.006 / -0.013) a 0.136 (+0.041 / -0.014) AU
+   Masa:      de 3.18 (sin error) a 8.35 (sin error) M_Tierra (pico en ≈ 5.15 M_Tierra)
+
+Tipo M | 5 planetas | pesos: fraccion | región 1 de 1
+   Distancia: de 0.077 (+0.024 / -0.020) a 0.145 (+0.062 / -0.040) AU
+   Masa:      de 2.62 (sin error) a 3.18 (sin error) M_Tierra (pico en ≈ 2.88 M_Tierra)
+
+Tipo M | 7 planetas | pesos: fraccion | región 1 de 2
+   Distancia: de 0.012 (+0.002 / -0.002) a 0.016 (+0.010 / -0.002) AU
+   Masa:      de 1.21 (sin error) a 1.47 (sin error) M_Tierra (pico en ≈ 1.33 M_Tierra)
+
+Tipo M | 7 planetas | pesos: fraccion | región 2 de 2
+   Distancia: de 0.036 (+0.005 / -0.009) a 0.049 (+0.019 / -0.007) AU
+   Masa:      de 1.00 (sin error) a 1.33 (sin error) M_Tierra (pico en ≈ 1.21 M_Tierra)
+
+NOTA: las masas sin error vienen de una caché v1 (solo se guardaron réplicas en distancia).
+Para tener el error 1σ de masa aplica el parche de masas, cambia _CACHE_VERSION a "v2"
+y vuelve a ejecutar el script principal (recalcula el bootstrap una vez).

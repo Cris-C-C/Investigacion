@@ -1,0 +1,35 @@
+Regiones de mayor probabilidad por tipo espectral (todos los sistemas)
+======================================================================
+Región = isla de densidad (umbral = nivel de la barra de color inmediatamente inferior a la altura de su pico; 90.9% para el núcleo). Errores: 1σ (percentiles 16-84) de 10000 réplicas bootstrap.
+
+Tipo F | todos planetas | región 1 de 2
+   Distancia: de 0.068 (+0.005 / -0.000) a 0.106 (+0.014 / -0.008) AU
+   Masa:      de 93.57 (+5.22 / -9.59) a 151.73 (+10.46 / -19.19) M_Tierra (pico en ≈ 125.06 M_Tierra)
+
+Tipo F | todos planetas | región 2 de 2
+   Distancia: de 0.077 (+0.015 / -0.008) a 0.145 (+0.043 / -0.020) AU
+   Masa:      de 6.88 (+1.23 / -1.34) a 13.54 (+2.46 / -2.07) M_Tierra (pico en ≈ 9.20 M_Tierra)
+
+Tipo G | todos planetas | región 1 de 2
+   Distancia: de 0.093 (+0.024 / -0.013) a 0.290 (+0.088 / -0.059) AU
+   Masa:      de 6.88 (+1.30 / -1.10) a 24.18 (+10.20 / -5.08) M_Tierra (pico en ≈ 12.29 M_Tierra)
+
+Tipo G | todos planetas | región 2 de 2
+   Distancia: de 1.700 (+0.441 / -0.253) a 2.054 (+0.988 / -0.952) AU
+   Masa:      de 223.36 (+252.51 / -55.20) a 298.50 (+1084.66 / -259.96) M_Tierra (pico en ≈ 271.00 M_Tierra)
+
+Tipo K | todos planetas | región 1 de 3
+   Distancia: de 0.064 (+0.007 / -0.002) a 0.128 (+0.010 / -0.009) AU
+   Masa:      de 712.52 (+292.11 / -176.82) a 2272.96 (+617.57 / -595.79) M_Tierra (pico en ≈ 1272.61 M_Tierra)
+
+Tipo K | todos planetas | región 2 de 3
+   Distancia: de 0.082 (+0.015 / -0.010) a 0.164 (+0.038 / -0.032) AU
+   Masa:      de 5.67 (+1.27 / -0.78) a 14.91 (+5.83 / -3.59) M_Tierra (pico en ≈ 9.20 M_Tierra)
+
+Tipo K | todos planetas | región 3 de 3
+   Distancia: de 0.748 (+0.306 / -0.250) a 2.331 (+0.870 / -0.560) AU
+   Masa:      de 103.07 (+73.05 / -41.33) a 484.02 (+347.15 / -164.19) M_Tierra (pico en ≈ 246.03 M_Tierra)
+
+Tipo M | todos planetas | región 1 de 1
+   Distancia: de 0.046 (+0.007 / -0.006) a 0.106 (+0.017 / -0.011) AU
+   Masa:      de 2.38 (+0.28 / -0.47) a 6.88 (+0.84 / -1.10) M_Tierra (pico en ≈ 3.85 M_Tierra)

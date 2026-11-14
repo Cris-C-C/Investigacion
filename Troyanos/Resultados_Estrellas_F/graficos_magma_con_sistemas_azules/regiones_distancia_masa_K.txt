@@ -1,0 +1,55 @@
+REGIONES DE MAYOR PROBABILIDAD: DISTANCIA Y MASA
+==================================================
+Región = isla de densidad >= 90.9% de su pico (modo: picos).
+Errores: 1σ asimétricos (percentiles 16-84 del bootstrap), tal como están en la caché.
+Masas en M_Tierra; distancias en AU.
+
+
+FIGURA EN FILA (un panel por tipo espectral)
+--------------------------------------------
+Tipo K | todos los sistemas | pesos: fraccion | región 1 de 2
+   Distancia: de 0.064 (+0.000 / -0.018) a 0.186 (+1.361 / -0.016) AU
+   Masa:      de 712.52 (sin error) a 2272.96 (sin error) M_Tierra (pico en ≈ 1272.61 M_Tierra)
+
+Tipo K | todos los sistemas | pesos: fraccion | región 2 de 2
+   Distancia: de 0.748 (+0.382 / -0.082) a 2.188 (+1.068 / -0.196) AU
+   Masa:      de 103.07 (sin error) a 484.02 (sin error) M_Tierra (pico en ≈ 246.03 M_Tierra)
+
+
+FIGURAS POR TIPO ESPECTRAL Y MULTIPLICIDAD
+------------------------------------------
+Tipo K | 3 planetas | pesos: fraccion | región 1 de 2
+   Distancia: de 0.064 (+0.003 / -0.009) a 0.175 (+0.056 / -0.034) AU
+   Masa:      de 1048.89 (sin error) a 3037.67 (sin error) M_Tierra (pico en ≈ 1700.76 M_Tierra)
+
+Tipo K | 3 planetas | pesos: fraccion | región 2 de 2
+   Distancia: de 0.748 (+0.567 / -0.107) a 1.928 (+3.195 / -0.150) AU
+   Masa:      de 103.07 (sin error) a 439.42 (sin error) M_Tierra (pico en ≈ 202.78 M_Tierra)
+
+Tipo K | 4 planetas | pesos: fraccion | región 1 de 2
+   Distancia: de 0.060 (+0.012 / -0.005) a 0.199 (+0.051 / -0.040) AU
+   Masa:      de 5.67 (sin error) a 1048.89 (sin error) M_Tierra (pico en ≈ 646.87 M_Tierra)
+
+Tipo K | 4 planetas | pesos: fraccion | región 2 de 2
+   Distancia: de 0.904 (+0.321 / -0.373) a 2.644 (+0.000 / -0.726) AU
+   Masa:      de 202.78 (sin error) a 533.15 (sin error) M_Tierra (pico en ≈ 328.80 M_Tierra)
+
+Tipo K | 5 planetas | pesos: fraccion | región 1 de 2
+   Distancia: de 0.030 (+0.039 / -0.000) a 0.225 (+0.000 / -0.113) AU
+   Masa:      de 712.52 (sin error) a 3685.58 (sin error) M_Tierra (pico en ≈ 1700.76 M_Tierra)
+
+Tipo K | 5 planetas | pesos: fraccion | región 2 de 2
+   Distancia: de 0.424 (+0.016 / -0.016) a 0.659 (+0.032 / -0.000) AU
+   Masa:      de 11.16 (sin error) a 63.57 (sin error) M_Tierra (pico en ≈ 26.63 M_Tierra)
+
+Tipo K | 6 planetas | pesos: fraccion | región 1 de 2
+   Distancia: de 0.072 (+0.008 / -0.001) a 0.154 (+0.037 / -0.007) AU
+   Masa:      de 4.67 (sin error) a 9.20 (sin error) M_Tierra (pico en ≈ 6.88 M_Tierra)
+
+Tipo K | 6 planetas | pesos: fraccion | región 2 de 2
+   Distancia: de 2.331 (+0.000 / -0.099) a 4.114 (+0.127 / -0.000) AU
+   Masa:      de 84.95 (sin error) a 137.75 (sin error) M_Tierra (pico en ≈ 103.07 M_Tierra)
+
+NOTA: las masas sin error vienen de una caché v1 (solo se guardaron réplicas en distancia).
+Para tener el error 1σ de masa aplica el parche de masas, cambia _CACHE_VERSION a "v2"
+y vuelve a ejecutar el script principal (recalcula el bootstrap una vez).
