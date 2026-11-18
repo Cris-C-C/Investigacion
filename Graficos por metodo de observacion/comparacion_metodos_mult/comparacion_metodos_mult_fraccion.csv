@@ -1,0 +1,5 @@
+﻿Tipo,Num_Planetas,Pesos,N_planetas_RV,N_planetas_Transit,N_sistemas_RV,N_sistemas_Transit,Solapamiento,Pico_RV_a_UA,Pico_RV_m_Mt,Pico_Transit_a_UA,Pico_Transit_m_Mt,Estado,Detalle
+F,2,fraccion,0,2,0,1,,,,,,datos insuficientes RV,También faltan datos Transit
+F,3,fraccion,4,11,2,4,0.027661444606711945,0.07019322693827056,162.5929612033343,0.09155964425165518,9.688282531777487,ok,
+F,4,fraccion,4,0,1,0,,0.1194298769432839,13.783314427726967,,,datos insuficientes Transit,
+F,5,fraccion,0,5,0,1,,,,1.3646704689103573,24.804574247882012,datos insuficientes RV,
