@@ -1,0 +1,20 @@
+# %ECSV 1.0
+# ---
+# datatype:
+# - {name: tipo, datatype: string}
+# - {name: fuente, datatype: string}
+# - {name: orden_n, datatype: float64}
+# - {name: frecuencia_cpd, datatype: float64}
+# - {name: periodo_d, datatype: float64}
+# - {name: amplitud_ppt, datatype: float64}
+# - {name: fase_rad, datatype: float64}
+# - {name: snr, datatype: float64}
+# - {name: fap, datatype: float64}
+# meta: !!omap
+# - {pdm: Verificaciones PDM locales registradas en tabla_senales por separado.}
+# schema: astropy-2.0
+tipo fuente orden_n frecuencia_cpd periodo_d amplitud_ppt fase_rad snr fap
+independiente prewhitening nan 1.2067227733264352 0.8286907499420219 3.98128497564477 2.514931777856402 7.395810488369267 0.0
+independiente prewhitening nan 2.4132433158723314 0.4143800972835278 3.102582823355556 1.6186456334532215 5.321407247982999 6.09823624639005e-287
+orbital/armónico prewhitening 4.0 2.1726879579940617 0.4602593742560491 0.18918078245871578 0.6370116099065313 4.900491876508424 3.32880974090336e-175
+orbital/armónico prewhitening 6.0 3.2590319369910925 0.30683958283736606 0.18039916001427225 -1.7166058995243922 5.107198540237816 6.27748743503265e-172

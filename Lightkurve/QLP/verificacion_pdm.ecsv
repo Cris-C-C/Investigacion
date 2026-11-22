@@ -1,0 +1,10 @@
+# %ECSV 1.0
+# ---
+# datatype:
+# - {name: frecuencia_ls_cpd, datatype: float64}
+# - {name: periodo_pdm_d, datatype: float64}
+# - {name: theta_min, datatype: float64}
+# schema: astropy-2.0
+frecuencia_ls_cpd periodo_pdm_d theta_min
+1.2067227733264352 0.8289143483934883 0.7240354254112554
+2.4132433158723314 0.4143242109210795 0.9231787930289513

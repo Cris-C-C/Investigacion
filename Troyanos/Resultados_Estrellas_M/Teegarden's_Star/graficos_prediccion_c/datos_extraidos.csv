@@ -1,0 +1,4 @@
+﻿Sistema,Planeta,Tipo_Estrella,Distancia_UA,Masa_Tierra,Masa_Estrella,Num_Planetas,Zonas Estables,Zonas Inestables,Zonas Colisión m1,Zonas Colisión m2,Area_Estable_km2,Area_Inestable,Area_Colision_m1,Area_Colision_m2
+Teegarden's Star,Teegarden's Star b,M,0.0259,1.16,0.097,3,141,9844,0,15,33900000000.0,2360000000000.0,0.0,3600000000.0
+Teegarden's Star,Teegarden's Star c,M,0.0455,1.05,0.097,3,133,9853,0,14,98600000000.0,7300000000000.0,0.0,10400000000.0
+Teegarden's Star,Teegarden's Star d,M,0.0791,0.82,0.097,3,116,9868,0,16,260000000000.0,22100000000000.0,0.0,35800000000.0

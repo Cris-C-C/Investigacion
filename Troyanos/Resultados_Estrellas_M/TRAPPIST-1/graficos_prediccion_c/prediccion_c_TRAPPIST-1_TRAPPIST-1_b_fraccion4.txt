@@ -1,0 +1,8 @@
+Predicción de c - TRAPPIST-1 (tipo M), b = TRAPPIST-1 b (a = 0.01154 AU, m = 1.374 M_T)
+Pesos: A_est/(A_est+A_inest+A_col_m1+A_col_m2). Referencia: 0 planetas / 0 sistemas (sin TRAPPIST-1).
+Aviso: es UNA sola prueba; un acierto solo es informativo comparado con la cobertura por azar indicada abajo.
+
+Modo 'solo_b': c (a = 1.308 AU) cae FUERA de las regiones.
+   Densidad relativa en c: 0.0 % (barra 0.0-10.1 %) evaluada en (a_c, m_c)
+   Regiones: 1 | cubren 8.1 % del rango en log a de la referencia (esa es la probabilidad de acierto por azar para una distancia al azar)
+   Región 1: 0.008 - 0.016 AU | no contiene a c (Δ al borde = 1.92 dex; 3σ: no) | masa de c fuera del rango
