@@ -1,0 +1,8 @@
+Lectura del catálogo
+Esperados: 448
+Válidos: 448
+Descartados: 0
+F · 24 de 24 candidatos
+G · 124 de 124 candidatos
+K · 140 de 140 candidatos
+M · 160 de 160 candidatos

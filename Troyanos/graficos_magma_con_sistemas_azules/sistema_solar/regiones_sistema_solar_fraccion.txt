@@ -1,0 +1,14 @@
+Regiones del Sistema Solar
+==========================
+Error simétrico 1σ (basico) con resolución de 0.5 celdas en dex.
+† Recuperación baja o réplicas insuficientes. Los errores con solo resolución son instrumentales.
+
+Tipo Solar | 8 planetas | región 1 de 2
+   Distancia: de 0.384 ± 0.214 a 1.691 ± 0.856 AU
+   Masa: de 0.066 ± 0.130 a 4.681 ± 10.053 M_Tierra
+   Pico 18.65 % · nivel 11.60 % · recuperación 3766/5000 (75.3%) · planetas_solares
+
+Tipo Solar | 8 planetas | región 2 de 2
+   Distancia: de 4.274 ± 1.102 a 7.809 ± 2.389 AU
+   Masa: de 119.075 ± 69.068 a 518.408 ± 257.388 M_Tierra
+   Pico 100.00 % · nivel 90.90 % · recuperación 4395/5000 (87.9%) · planetas_solares

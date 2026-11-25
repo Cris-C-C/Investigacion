@@ -1,0 +1,44 @@
+Regiones de mayor densidad · fila
+=================================
+Error simétrico 1σ (basico) con resolución de 0.5 celdas en dex.
+† Recuperación baja o réplicas insuficientes. Los errores con solo resolución son instrumentales.
+
+Tipo F | todos planetas | región 1 de 2 †
+   Distancia: de 0.068 ± 0.011 a 0.106 ± 0.017 AU
+   Masa: de 93.574 ± 13.616 a 151.730 ± 37.027 M_Tierra
+   Pico 63.51 % · nivel 60.60 % · recuperación 661/1000 (66.1%) · sistemas
+
+Tipo F | todos planetas | región 2 de 2
+   Distancia: de 0.077 ± 0.012 a 0.145 ± 0.032 AU
+   Masa: de 6.881 ± 1.679 a 13.536 ± 3.303 M_Tierra
+   Pico 100.00 % · nivel 90.90 % · recuperación 987/1000 (98.7%) · sistemas
+
+Tipo G | todos planetas | región 1 de 2
+   Distancia: de 0.093 ± 0.021 a 0.290 ± 0.084 AU
+   Masa: de 6.881 ± 1.679 a 24.177 ± 8.337 M_Tierra
+   Pico 100.00 % · nivel 90.90 % · recuperación 970/1000 (97.0%) · sistemas
+
+Tipo G | todos planetas | región 2 de 2
+   Distancia: de 1.700 ± 1.082 a 2.054 ± 1.010 AU
+   Masa: de 223.359 ± 204.892 a 298.505 ± 455.118 M_Tierra
+   Pico 71.00 % · nivel 70.70 % · recuperación 782/1000 (78.2%) · sistemas
+
+Tipo K | todos planetas | región 1 de 3
+   Distancia: de 0.064 ± 0.006 a 0.128 ± 0.012 AU
+   Masa: de 712.520 ± 245.701 a 2272.959 ± 783.794 M_Tierra
+   Pico 100.00 % · nivel 90.90 % · recuperación 986/1000 (98.6%) · sistemas
+
+Tipo K | todos planetas | región 2 de 3
+   Distancia: de 0.082 ± 0.018 a 0.164 ± 0.037 AU
+   Masa: de 5.671 ± 1.956 a 14.910 ± 5.142 M_Tierra
+   Pico 85.08 % · nivel 80.80 % · recuperación 997/1000 (99.7%) · sistemas
+
+Tipo K | todos planetas | región 3 de 3
+   Distancia: de 0.748 ± 0.316 a 2.331 ± 0.984 AU
+   Masa: de 103.072 ± 57.420 a 484.023 ± 269.642 M_Tierra
+   Pico 55.93 % · nivel 50.50 % · recuperación 824/1000 (82.4%) · sistemas
+
+Tipo M | todos planetas | región 1 de 1
+   Distancia: de 0.046 ± 0.007 a 0.106 ± 0.017 AU
+   Masa: de 2.376 ± 0.580 a 6.881 ± 1.679 M_Tierra
+   Pico 100.00 % · nivel 90.90 % · recuperación 1000/1000 (100.0%) · sistemas
