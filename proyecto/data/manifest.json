@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "tables": [
+    {
+      "path": "data/tablas/configuraciones-coorbitales.tex",
+      "caption": "Configuraciones coorbitales",
+      "labels": [
+        "tab:configuraciones"
+      ],
+      "citations": [
+        "MurrayDermott1999",
+        "Morais2001",
+        "LaughlinChambers2002"
+      ]
+    },
+    {
+      "path": "data/tablas/observables-coorbitales.tex",
+      "caption": "Observables para detectar coorbitales",
+      "labels": [
+        "tab:observables"
+      ],
+      "citations": [
+        "Leleu2015",
+        "Leleu2017"
+      ]
+    }
+  ],
+  "bibliography": [
+    "data/bib/coorbitales.bib"
+  ]
+}
